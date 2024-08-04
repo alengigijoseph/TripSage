@@ -12,8 +12,8 @@ dependencyResolutionManagement {
         mavenCentral()
         maven {
             url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
-            credentials.username = "mapbox"
-            credentials.password = "sk.eyJ1IjoiZ2VvcmdldGhla2tlMDMiLCJhIjoiY2x2a3diNHM3MGswazJqbXc3cjl3aWFrMiJ9.3ODfuGVIwyLQNVVlSGUmAg"
+            credentials.username = "mapbox_username"
+            credentials.password = "mapbox_key"
             authentication.create<BasicAuthentication>("basic")
 
         }
